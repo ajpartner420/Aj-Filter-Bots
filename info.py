@@ -19,8 +19,8 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12978935'))
-API_HASH = environ.get('API_HASH', '2b728f6bcba0fce63bdafa6840d5041c)
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_HASH = environ.get('API_HASH', '2b728f6bcba0fce63bdafa6840d5041c')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6615394544:AAHTKc6Gac3d1uiV94YtIiWUnetqCT4ouJo")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -49,7 +49,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aj_movieBook:jitu3240@cluster0.hdimszu.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "aj_moviebook")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Aj_MovieBook')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+q3FAzjyXMDo1ZDhl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001802571077')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001992347854')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MOVIE_REQUEST_GROUP_AJ')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
