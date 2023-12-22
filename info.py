@@ -1,6 +1,6 @@
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Aj_MovieBook
 
 
 import re
@@ -61,13 +61,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_bots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MOVIE_REQUEST_GROUP_AJ')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Aj_MovieBook')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+q3FAzjyXMDo1ZDhl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001623633000'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001802571077')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MOVIE_REQUEST_GROUP_AJ')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -92,7 +92,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 
                            # Don't Remove Credit @VJ_Botz
                            # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-                           # Ask Doubt on telegram @KingVJ01
+                           # Ask Doubt on telegram @Aj_MovieBook
 
 
 # Online Stream and Download
@@ -140,4 +140,4 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @Aj_MovieBook
